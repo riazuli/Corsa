@@ -1,36 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @font-face {
-    font-family: 'Corsa Grotesk';
-    src: url('CorsaGrotesk-Medium.woff2') format('woff2'),
-        url('CorsaGrotesk-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Corsa Grotesk";
+  src: url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Medium.woff2")
+      format("woff2"),
+    url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Corsa Grotesk';
-    src: url('CorsaGrotesk-Regular.woff2') format('woff2'),
-        url('CorsaGrotesk-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Corsa Grotesk";
+  src: url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Regular.woff2")
+      format("woff2"),
+    url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Corsa Grotesk';
-    src: url('CorsaGrotesk-Bold.woff2') format('woff2'),
-        url('CorsaGrotesk-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Corsa Grotesk";
+  src: url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Bold.woff2")
+      format("woff2"),
+    url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Corsa Grotesk';
-    src: url('CorsaGrotesk-Thin.woff2') format('woff2'),
-        url('CorsaGrotesk-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Corsa Grotesk";
+  src: url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Thin.woff2")
+      format("woff2"),
+    url("https://github.com/riazuli/Corsa/raw/main/CorsaGrotesk-Thin.woff")
+      format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
+p,
+li,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Corsa Grotesk" !important;
+}
+p,
+li,
+body {
+  font-weight: 400 !important;
+}
+
+.bebas-font,
+.bebas-font strong,
+.bebas-font h1,
+.bebas-font h2,
+.bebas-font h3,
+.bebas-font h4,
+.bebas-font h5,
+.bebas-font h6 {
+  font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6 {
+  font-weight: 100 !important;
+}
+.normal h1,
+.normal h2,
+.normal h3,
+.normal h4,
+.normal h5,
+.normal h6 {
+  font-weight: 400 !important;
+}
+.medium h1,
+.medium h2,
+.medium h3,
+.medium h4,
+.medium h5,
+.medium h6 {
+  font-weight: 500 !important;
+}
+.bold h1,
+.bold h2,
+.bold h3,
+.bold h4,
+.bold h5,
+.bold h6 {
+  font-weight: 700 !important;
+}
+
+.inner {
+  max-width: 1280px !important;
+}
+
+.primary-btn {
+  border-radius: 38px;
+  background: #ff0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.videoWrap {
+  background: #092f6e;
+  border: 11px solid #ff0;
+  box-shadow: 0px 19.1411px 51.0429px rgba(255, 102, 69, 0.1);
+  border-radius: 12.7607px;
+}
+
+.videoWrap > div {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.videoWrap iframe {
+  border: 0px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-list ul li:before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://storage.googleapis.com/msgsndr/BBp43r4GJYuaSBSduX1x/media/64b5691cf601aaaa8a3c9b85.svg+xml);
+}
